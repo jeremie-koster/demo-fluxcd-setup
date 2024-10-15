@@ -1,0 +1,10 @@
+apiVersion: source.toolkit.fluxcd.io/v1
+kind: GitRepository
+metadata:
+  name: source-demo-flux-app
+  namespace: default
+spec:
+  interval: 1m0s
+  url: https://github.com/jeremie-koster/demo-fluxcd-application
+  ref:
+    branch: main
