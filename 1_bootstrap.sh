@@ -1,7 +1,7 @@
 # /bin/sh
 
 flux bootstrap github \
-  --owner=$GITHUB_USER \
+  --owner=jeremie-koster \
   --token-auth \
   --repository=demo-fluxcd-setup \
   --branch=main \
