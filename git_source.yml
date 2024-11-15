@@ -5,6 +5,6 @@ metadata:
   namespace: default
 spec:
   interval: 1m0s
-  url: https://github.com/jeremie-koster/demo-fluxcd-application
+  url: https://github.com/jeremie-koster/demo-fluxcd-setup
   ref:
     branch: main
