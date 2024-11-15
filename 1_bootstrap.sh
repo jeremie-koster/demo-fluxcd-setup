@@ -6,4 +6,5 @@ flux bootstrap github \
   --repository=demo-fluxcd-setup \
   --branch=main \
   --path=./clusters/my-cluster \
-  --personal
+  --personal \
+  --components-extra image-reflector-controller,image-automation-controller
