@@ -1,8 +1,0 @@
-apiVersion: image.toolkit.fluxcd.io/v1beta2
-kind: ImageRepository
-metadata:
-  name: demo-image-repo
-  namespace: default
-spec:
-  image: ghcr.io/jeremie-koster/demo-flux-app
-  interval: 1m0s
